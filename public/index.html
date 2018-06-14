@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="favicon.ico" type="image/ico">
+  <link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.min.css">  
+ 
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Weather Chat</title>
+</head>
+<body>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="page-header">
+        <h1>Weather Chat 
+          <i class="fa fa-cloud fa-lg"></i>
+          <i class="fa fa-map-marker"></i>
+        </h1>
+        
+      </div>
+
+      <form>
+        <h3>Add a New City</h3>
+        <!--class="input-group" => container to enhance an input by adding an icon, text or a button-->
+        <div class="form-group input-group">
+          <!--class="form-control" => If you need to insert plain text next to a form label within a form-->
+          <input type="text" id="city" class="form-control" placeholder="Enter City">
+          <!--class="input-group-btn => attaches a button next to an input-->
+          <span class="input-group-btn">
+              <button class="btn btn-primary add-temp" type="button">Get Temp</button>
+          </span>
+        </div>
+      </form>
+      
+      <div class="weather">
+      </div>
+
+    </div>
+  </div>
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

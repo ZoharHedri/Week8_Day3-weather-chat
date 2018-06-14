@@ -1,0 +1,52 @@
+
+
+body{
+  background-image: url(StormClouds.jpg);
+}
+
+h1,h3{
+  color: aliceblue
+}
+
+/*css of city*/
+.post{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100%;
+  background-color: white;
+  padding: 10px 10px;/*top & bottom padding 10px, right & left 10px;*/
+  margin: 25px 0px;/*top & bottom padding 25px, right & left 0px;*/
+
+}
+
+/*div class="comments-container" -> comments*/
+/* .comments-container {
+  display: none;
+} */
+
+/*commetes css*/
+.comment-post {
+  line-height: 20px;
+  border-radius: 6px;
+  font-style: italic;
+  background-color: darkorange;
+  color: white;
+  padding: 5px 10px;
+  margin: 10px 0px;/*top & bottom padding 25px, right & left 0px;*/
+}
+
+.show {
+  display: block;
+}
+
+
+/*button class="btn btn-primary add-comment" -> comments*/
+.add-comment{
+  margin-left: 10px;
+}
+
+/*form*/
+/* .form-control{
+  float: left;
+  width: 80%;
+} */
